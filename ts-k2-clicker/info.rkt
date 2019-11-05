@@ -5,6 +5,9 @@
 (define deps '(
   "https://github.com/thoughtstem/TS-GE-Katas.git?path=ts-kata-util"
   "https://github.com/thoughtstem/TS-GE-Katas.git?path=ts-fundamentals"
-  "https://github.com/thoughtstem/TS-K2-Katas.git?path=ts-k2-clicker"
+  "https://github.com/thoughtstem/TS-K2-Languages.git?path=clicker-cartoon-lib"
+  "https://github.com/thoughtstem/TS-K2-Languages.git?path=clicker-cartoon-collect"
+  "https://github.com/thoughtstem/TS-K2-Languages.git?path=clicker-cartoon-avoid"
+  "https://github.com/thoughtstem/TS-K2-Languages.git?path=clicker-cartoon-special"
   ))
 
