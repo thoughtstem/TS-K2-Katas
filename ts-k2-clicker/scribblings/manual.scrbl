@@ -6,10 +6,22 @@
           "../rendering.rkt"
           (except-in racket read do))
 
-@title{K2 ClickerKatas}
+@title{K2 Clicker Katas}
 
 @table-of-contents[]
 
-@section{Katas}
+@section{Sample Katas}
 
-@(render katas)
+@(render farm)
+
+@section{Cartoon Intro Katas}
+@(render hello-world-katas)
+
+@section{Cartoon Collect Katas}
+@(render collect-katas)
+
+@section{Cartoon Avoid Katas}
+@(render avoid-katas)
+
+@section{Cartoon Special Katas}
+@(render special-katas)
