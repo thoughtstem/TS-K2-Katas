@@ -18,6 +18,6 @@
 
 @;(render sea)
 
-@section{Farm}
+@section{Animal}
 
-@(render farm)
+@(render animal)

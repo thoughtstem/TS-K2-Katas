@@ -1,7 +1,7 @@
 #lang racket
 
 (provide ;zoo sea
-         farm)
+         animal)
 
 (require
     ts-kata-util/katas/main
@@ -18,12 +18,12 @@
                      healer-sea-foods
                      healer-sea-friends
                      healer-sea-enemies)
-(define-ratchet-katas farm
-                     healer-farm-foods
-                     healer-farm-friends
-                     healer-farm-enemies)
+(define-ratchet-katas animal
+                     healer-animal-foods
+                     healer-animal-friends
+                     healer-animal-enemies)
 
-(define-sub-collections farm
+(define-sub-collections animal
   hello-world-katas
   foods-katas
   friends-katas
