@@ -1,31 +1,38 @@
 #lang racket
 
-(provide katas)
+(provide farm
+         cartoon)
 
 (require 
-  ts-kata-util
+  ;ts-kata-util
   ts-kata-util/katas/main
   ts-kata-util/katas/ratchet
-  ts-kata-util/inline-stimuli
+  ;ts-kata-util/inline-stimuli
 
-  syntax/parse/define
-  (for-syntax racket/syntax))
+  ;syntax/parse/define
+  ;(for-syntax racket/syntax)
+  )
 
 
 
-(define proto-katas
-  (merge-collections
-    (lang->kata-collection 'clicker-farm-collect)))
+(define-ratchet-katas farm
+                      clicker-farm-collect)
 
-(define the-stimuli 
-  (extract-stimuli clicker-farm-collect/examples))
+(define-ratchet-katas cartoon
+                      clicker-cartoon-collect
+                      clicker-cartoon-avoid
+                      clicker-cartoon-special)
 
-(define katas-with-stimuli
-  (apply fill-in-stimuli proto-katas the-stimuli))
+(define-sub-collections cartoon
+                        hello-world-katas
+                        collect-katas
+                        avoid-katas
+                        special-katas)
 
-(define katas 
-  #;
-  (kata-collection '())  
 
-  (katas-map add-ratchet-output-to-response katas-with-stimuli)) 
+
+
+
+
+
 

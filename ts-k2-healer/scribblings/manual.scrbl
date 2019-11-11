@@ -10,14 +10,14 @@
 
 @table-of-contents[]
 
-@section{Zoo}
+@;section{Zoo}
 
-@(render zoo)
+@;(render zoo)
 
-@section{Sea}
+@;section{Sea}
 
-@(render sea)
+@;(render sea)
 
-@section{Farm}
+@section{Animal}
 
-@(render farm)
+@(render animal)
