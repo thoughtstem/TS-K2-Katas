@@ -4,7 +4,7 @@
 
 (define deps '(
   "https://github.com/thoughtstem/TS-GE-Katas.git?path=ts-kata-util"
-  "https://github.com/thoughtstem/TS-GE-Katas.git?path=ts-fundamentals"
+  "https://github.com/thoughtstem/TS-MISC-Katas.git?path=ts-fundamentals"
   "https://github.com/thoughtstem/TS-K2-Katas.git?path=ts-k2-clicker"
   ))
 
