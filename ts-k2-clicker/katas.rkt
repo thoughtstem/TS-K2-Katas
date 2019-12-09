@@ -1,6 +1,6 @@
 #lang racket
 
-(provide farm
+(provide ;farm
          cartoon)
 
 (require 
@@ -15,8 +15,8 @@
 
 
 
-(define-ratchet-katas farm
-                      clicker-farm-collect)
+;(define-ratchet-katas farm
+;                      clicker-farm-collect)
 
 (define-ratchet-katas cartoon
                       clicker-cartoon-collect
