@@ -2,7 +2,8 @@
 
 @(require ts-kata-util/katas/main
           ts-kata-util/katas/rendering
-          "../katas.rkt"
+          (prefix-in animal: "../katas/animal.rkt")
+          (prefix-in zoo: "../katas/zoo.rkt")
           "../rendering.rkt"
           (except-in racket read do))
 
@@ -10,14 +11,10 @@
 
 @table-of-contents[]
 
-@;section{Zoo}
-
-@;(render zoo)
-
-@;section{Sea}
-
-@;(render sea)
-
 @section{Animal}
+@(render animal:animal)
 
-@(render animal)
+@section{Zoo}
+@(render zoo:zoo)
+
+
