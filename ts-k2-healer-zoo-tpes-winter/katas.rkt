@@ -9,7 +9,7 @@
 
 (require ts-kata-util/katas/main
          ts-fundamentals/katas
-         ts-k2-healer/katas)
+         ts-k2-healer/katas/zoo)
 
 
 (define-kata-collection intro-katas

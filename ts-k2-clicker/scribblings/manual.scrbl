@@ -10,10 +10,6 @@
 
 @table-of-contents[]
 
-@section{Sample Katas}
-
-@(render farm)
-
 @section{Cartoon Intro Katas}
 @(render hello-world-katas)
 
