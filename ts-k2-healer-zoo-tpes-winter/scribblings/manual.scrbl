@@ -6,7 +6,7 @@
           "../rendering.rkt"
           (except-in racket read do))
 
-@title{Heling Zoo Animals}
+@title{Healing Zoo Animals}
 
 @table-of-contents[]
 
