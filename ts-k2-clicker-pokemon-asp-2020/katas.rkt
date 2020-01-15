@@ -10,7 +10,7 @@
 
 (require ts-kata-util/katas/main
          ts-fundamentals/katas
-         ts-k2-clicker/katas/cartoon)
+         ts-k2-clicker/katas/pokemon)
 
 (define-kata-collection intro-katas
   code-values-all

@@ -11,10 +11,10 @@
 
 @table-of-contents[]
 
-@section{Animal}
+@section{Animal Katas}
 @(render animal:animal)
 
-@section{Zoo}
+@section{Zoo Katas}
 @(render zoo:zoo)
 
 
