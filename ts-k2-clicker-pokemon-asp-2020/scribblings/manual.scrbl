@@ -7,7 +7,7 @@
           "../rendering.rkt"
           (except-in racket read do))
 
-@title{Point & Click Games}
+@title{Pokemon Point & Click Games}
 
 @pokemon-badges
 

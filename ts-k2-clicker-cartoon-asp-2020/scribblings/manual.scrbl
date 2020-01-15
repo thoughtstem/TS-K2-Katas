@@ -7,7 +7,7 @@
           "../rendering.rkt"
           (except-in racket read do))
 
-@title{Point & Click Games}
+@title{Cartoon Point & Click Games}
 
 @k2-cartoon-badges
 
