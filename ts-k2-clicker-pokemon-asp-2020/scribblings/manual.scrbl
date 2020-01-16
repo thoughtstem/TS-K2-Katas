@@ -7,12 +7,11 @@
           "../rendering.rkt"
           (except-in racket read do))
 
-@title{Cartoon Point & Click Games}
+@title{Pokemon Point & Click Games}
 
-@k2-cartoon-badges
+@pokemon-badges
 
 @table-of-contents[]
-
 
 @section{Intro Katas}
 

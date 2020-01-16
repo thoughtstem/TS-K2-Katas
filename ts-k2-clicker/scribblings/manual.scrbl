@@ -2,7 +2,8 @@
 
 @(require ts-kata-util/katas/main
           ts-kata-util/katas/rendering
-          "../katas.rkt"
+          (prefix-in cartoon: "../katas/cartoon.rkt")
+          (prefix-in pokemon: "../katas/pokemon.rkt")
           "../rendering.rkt"
           (except-in racket read do))
 
@@ -10,14 +11,8 @@
 
 @table-of-contents[]
 
-@section{Cartoon Intro Katas}
-@(render hello-world-katas)
+@section{Cartoon Katas}
+@(render cartoon:cartoon)
 
-@section{Cartoon Collect Katas}
-@(render collect-katas)
-
-@section{Cartoon Avoid Katas}
-@(render avoid-katas)
-
-@section{Cartoon Special Katas}
-@(render special-katas)
+@section{Pokemon Kata}
+@(render pokemon:pokemon)

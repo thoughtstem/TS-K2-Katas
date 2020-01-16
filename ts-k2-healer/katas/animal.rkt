@@ -1,7 +1,6 @@
 #lang racket
 
-(provide animal
-         )
+(provide animal)
 
 (require
     ts-kata-util/katas/main
