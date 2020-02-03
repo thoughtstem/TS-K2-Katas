@@ -9,7 +9,7 @@
 
 @title{Pokemon Point & Click Games}
 
-@pokemon-badges
+@k2-pokemon-badges
 
 @table-of-contents[]
 
