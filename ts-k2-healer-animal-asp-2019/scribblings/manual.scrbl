@@ -32,3 +32,5 @@
 
 @section{More Enemies Katas}
 @(render day-five)
+
+@(include-section ts-camp-materials/scribblings/gameshow-k2-healer-animal)
