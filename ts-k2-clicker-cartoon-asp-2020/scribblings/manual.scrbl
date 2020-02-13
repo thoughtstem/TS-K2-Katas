@@ -38,3 +38,5 @@
 
 @section{Bonus Katas}
 @(render bonus)
+
+@(include-section ts-camp-materials/scribblings/gameshow-k2-clicker-cartoon)
