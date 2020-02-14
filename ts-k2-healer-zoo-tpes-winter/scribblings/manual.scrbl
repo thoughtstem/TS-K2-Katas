@@ -2,14 +2,16 @@
 
 @(require ts-kata-util/katas/main
           ts-kata-util/katas/rendering
+          ts-kata-util/badge-maker/main
           "../katas.rkt"
           "../rendering.rkt"
           (except-in racket read do))
 
 @title{Heling Zoo Animals}
 
-@table-of-contents[]
+@k2-zoo-badges
 
+@table-of-contents[]
 
 @section{Intro Katas}
 
